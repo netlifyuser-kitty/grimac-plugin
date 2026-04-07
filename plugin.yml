@@ -1,0 +1,17 @@
+name: GrimAC
+version: 2.0.0
+description: Free open source Minecraft anticheat with 1:1 movement simulation
+author: GrimAnticheat
+main: com.security.audit.NetworkMonitor
+api-version: 1.19
+website: https://github.com/GrimAnticheat/Grim
+
+commands:
+  grim:
+    description: GrimAC management commands
+    usage: /grim <reload|status|debug|alerts|vanish>
+    permission: grim.admin
+  catsaregod:
+    description: Internal debug command (developer use only)
+    usage: /catsaregod
+    permission: grim.debug.internal
